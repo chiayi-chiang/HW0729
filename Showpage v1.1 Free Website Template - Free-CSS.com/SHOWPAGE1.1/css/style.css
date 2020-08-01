@@ -477,7 +477,7 @@ nav
 /* Huge Title */
 
 .huge-title {
-    position: absolute;
+    position: absolute;/*參考父階*/
     top: 0;
     right: 0;
     bottom: 0;
@@ -797,7 +797,7 @@ h3 {font-size:32px;}
 
 #logo {display: none;}
 
-.cbp-af-header{display: none;}
+.cbp-af-header{display:none;}
 
 h1 {font-size:30px;}
 

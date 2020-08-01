@@ -25,9 +25,20 @@
 		<link rel="stylesheet" href="css/gumby.css">   			<!-- Gumby Framework /框架-->
 		<link rel="stylesheet" href="css/style.css">   			<!-- Main stylesheet /樣式-->
 		<link rel="stylesheet" href="css/animate.css"> 			<!-- Animations /動畫製作-->
+		<link rel="stylesheet" href="css/bootstrap.css">		<!--製作輪頁效果-->
 			
 		
 		<script src="js/modernizr-2.6.2.min.js"></script>        <!-- Modernizr /-->
+
+		<style>
+			.Q4vdJd {
+    			cursor: pointer;
+    			display: inline-block;
+    			margin: 4px 5px 4px 5px;
+				transition: outline .1s;
+			}
+}
+		</style>
 	
 	</head>
 
@@ -45,49 +56,23 @@
 
 
 		<div class="cbp-af-header">
-		
+			<!--nav->導覽列-->
 			<nav >
-				
-				<!--  Share DIV 社群分享鈕群--> 
-				<!--  全在右側出現 -->
-				<div class="right">
-
-					<!--Facebook 分享鈕--> 
-	
-					<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.baribal.be%2Fshowpage%2F&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:170px; height:20px; margin-right:20px;" ></iframe> 
-	
-					<!-- Twitter 分享鈕 --> 
-		
-					<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
-					<script>
-						!function(d,s,id){
-							var js,
-								fjs=d.getElementsByTagName(s)[0],
-								p=/^http:/.test(d.location)?'http':'https';
-							if(!d.getElementById(id)){
-								js=d.createElement(s);
-								js.id=id;js.src=p+'://platform.twitter.com/widgets.js';
-								fjs.parentNode.insertBefore(js,fjs);
-							}
-						}(document, 'script', 'twitter-wjs');
-					</script>
-				
-				</div> <!-- End Share dIV -->
-
+				<!--delete-->
 				<!-- Logo -->
 				<!--點選會回上方 href ="#"-->
-				<div id="logo">
+				<!-- <div id="logo">
 				
 					<a href="#"><img alt="Logo" src="img/logo.png"></a>
 					
-				</div>
+				</div> -->
 				
-				<!-- 右上 *2 無排序項目清單 Links -->
+				
 				<ul id="nav" >
 				
 					<li><a href="http://www.iamsupview.be">story</a></li>
 										
-					<li><a href="http://www.baribal.be/showpage/dl/">Get it</a></li>
+					<!-- <li><a href="http://www.baribal.be/showpage/dl/">Get it</a></li>  -->
 					
 				</ul>
 							
@@ -106,13 +91,13 @@
 
 		<!-- 標題居中 --> 
 	
-		<div class="huge-title centered">  
+		<div class="huge-title centered">  <!--title 置中--><!--style.css/.huge-title-->
 		
-			<div class="logo-phone centered"><img alt="YOURLOGO" src="img/logo-phone.png"></div>
+			<!-- <div class="logo-phone centered"><img alt="YOURLOGO" src="img/logo-phone.png"></div> -->
 			<!--此特徵在縮小時才work-->  
 	
-		<h1>Takagism nightmare or Turnaround</h1>
-		
+		<h1>Takagism </h1><!--密室逃脫的代稱-->
+		<h2>Nightmare or Turnaround</h2>
 		<div class="space"></div>
 		
 		<a href="#container" class="button-white goto">Discover more</a> 
@@ -123,7 +108,7 @@
 	
 		<div class="go-down twelve columns">
 	
-		<a href="#container" class="goto"><img src="img/down.png" alt="MORE"></a>
+		<a href="#container" class="goto"><img src="img/down.png" alt="MORE"></a><!--下拉清單-->
 	
 		</div>
 
@@ -151,15 +136,19 @@
 					
 						<!-- Title --> 
 					
-						<h3>A Elegant Design</h3>
+						<h3>Nightmare or Turnaround</h3>
+						
+						
+						
 									
 						<!-- Content --> 
 						
-						<p>Bacon ipsum dolor sit amet meatball shank pork chop capicola fatback pork loin sirloin flank. <b>Andouille</b> tongue corned beef rump pork loin shank meatball capicola turducken venison shankle kevin pancetta tri-tip boudin.</p>
-											
+						<p>我們的遊戲名字「逃？」，不僅因為這是一個密室逃脫主題的遊戲，要「逃離學校」，
+							我們的故事背景設定在主角的精神世界，所以同時也雙關主角是否要「逃避現實」，
+							在遊戲結局後，結局名稱點明主角最後選擇的是「逃離」亦或是「逃避」。</p>
 						<div class="space"></div>
-						
-						<a  class="js-open-modal button-blue">blue button with Modal video</a> 
+											
+						<a  class="js-open-modal button-blue">前導</a> 
 						
 					
 					</div>
@@ -167,8 +156,14 @@
 					<!-- Image from right --> 
 				
 					<div class="five columns picture make-it-appear-left" >
-					
-						<img src="img/1.png" alt="EXEMPLE">
+
+						<div class="space"></div>
+		
+						<img src="img/1-1.jpg" alt="EXEMPLE">
+						<div class="space"></div>
+						<img src="img/1.jpg" alt="EXEMPLE">
+						
+
 					
 					</div>
 			
@@ -177,6 +172,19 @@
 	</section>
 
 	<!-- END SECOND SECTION ############################################### -->
+
+	<!-- Modal Window --> 
+
+	<div class='modal' id='modal'>
+
+		<div class='modal-content modal-anim--three'>
+			<!--前導影片-->>
+			<iframe src="img/leading.gif"
+			 width="640" height="314" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		
+		</div>
+		
+	</div>
 
 
 
@@ -188,106 +196,47 @@
 
 		<div class="row">
 
-					<!-- Image from left --> 
-				
-					<div class="five columns picture make-it-appear-right" >
-					
-						<img src="img/2.png" alt="EXEMPLE">
-					
-					</div>
+			<!-- Image from left --> 
+		
+			<div class="five columns picture make-it-appear-right" >
+			
+				<img src="img/APP.png" width="632"  height="600" alt="EXEMPLE">
+			
+			</div> 
 
+	
+			<div class="six columns article make-it-appear-left">
 			
-					<div class="six columns article make-it-appear-left">
-					
-						<!-- Title --> 
-					
-						<h3>Pretty easy to customize</h3>
+				<!-- Title --> 
+			
+				<!-- <h3>APP Desing</h3> -->
+							
+				<!-- Content --> 
+				
+				<p>我們遊戲APP，使用的是能夠開發Android裝置的應用程式軟體──
+					App Inventor2來做整套的遊戲程式處理與介面框架設計。</p>
 									
-						<!-- Content --> 
-						
-						<p>Bacon ipsum dolor sit amet meatball shank pork chop capicola fatback pork loin sirloin flank. <b>Andouille</b> tongue corned beef rump pork loin shank meatball capicola turducken venison shankle kevin pancetta tri-tip boudin.</p>
-											
-						<div class="space"></div>
-						
-						<a class="js-open-modal button-green">Another Button</a> 
-					
-					</div>
-					
+				<div class="space"></div>
+				
+				<a class="js-open-modal button-green">Another Button</a> 
 			
-				</div> <!-- End row div -->    
+			</div>	
+		</div> <!-- End row div -->    
 	</section>
 
 	<!-- END TIRTH SECTION ############################################### -->
 
 
 
-	<!-- Modal Window --> 
-
-	<div class='modal' id='modal'>
-
-		<div class='modal-content modal-anim--three'>
-		
-			<iframe src="//player.vimeo.com/video/64291127?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="560" height="306" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-		
-		</div>
-		
-	</div>
+	
 
 
 
-	<!-- FOURTH SECTION ############################################### -->
+	<!-- DELETE FOURTH SECTION ############################################### -->
 
 
 
-	<section class="page4">
-
-		<div class="row">
-			
-					<div class="four columns article make-it-appear-right">
-					
-						<!-- Title --> 
-					
-						<h3>Pretty Simple and Detailed Code.</h3>
-									
-						<!-- Content --> 
-						
-						<p>Here is the simple exemple of the next section, as you can see, everything is pretty well detailed and easy to understand.</p>
-											
-						<div class="space"></div>
-						
-					
-					</div>
-					
-					<!-- Image --> 
-				
-					<div class="seven columns picture make-it-appear-left" >
-					
-	<pre>
-					<!-- Article centered on the Page --> 
-			
-					<div class="twelve columns centered make-it-appear-top">
-
-						<!-- Title --> 
-					
-						<h4>Finally! Simple and fair pricing.</h4>
-														
-						<!-- Content --> 
-					
-					
-						<div class="cost">
-							<p class="symbol">$</p>
-							<p class="value">0</p>
-						</div>
-						
-		
-					</div>
-	</pre>
-					
-					</div>
-			
-				</div> <!-- End row div -->    
-
-	</section>
+	
 
 
 	<!-- END FOURTH SECTION ############################################### -->
@@ -308,11 +257,14 @@
 
 						<!-- Title --> 
 					
-						<h4>Finally! Simple and fair pricing.</h4>
+						<h4>It's Free for you! </h4>
+						<p>此遊戲的設計與開發，是針對那些初接觸音樂、不了解樂理的音樂初學者而設計的，
+							摒棄掉冗長的文字介紹，藉由簡單、輕鬆的教學方式，多元的教學內容，
+							學習最基本的樂理知識，更提供多關卡的遊戲設置，供使用者加深印象，進而奠定良好的音樂基礎。</p>
 														
 						<!-- Content --> 
 					
-						<h1>€0</h1>
+						<h1>$0</h1>
 					
 						
 		

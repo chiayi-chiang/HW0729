@@ -1,0 +1,84 @@
+<!-- NAVIGATION導覽頁 ############################################### -->
+
+
+		<div class="cbp-af-header">
+		
+			<nav >
+				
+				<!-- Share DIV 社群分享鈕群--> 
+				<!--  全在右側出現 -->
+				<div class="right">
+
+					<!-- Facebook 分享鈕--> 
+	
+					<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.baribal.be%2Fshowpage%2F&amp;width&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:170px; height:20px; margin-right:20px;" ></iframe> 
+	
+					<!-- Twitter 分享鈕 --> 
+		
+					<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+					<script>
+						!function(d,s,id){
+							var js,
+								fjs=d.getElementsByTagName(s)[0],
+								p=/^http:/.test(d.location)?'http':'https';
+							if(!d.getElementById(id)){
+								js=d.createElement(s);
+								js.id=id;js.src=p+'://platform.twitter.com/widgets.js';
+								fjs.parentNode.insertBefore(js,fjs);
+							}
+						}(document, 'script', 'twitter-wjs');
+					</script>
+				
+				</div> 
+				<!-- End Share dIV -->
+				<section class="page3" >
+
+<section class="page4">
+
+		<div class="row">
+			
+					<div class="four columns article make-it-appear-right">
+					
+						<!-- Title --> 
+					
+						<h3>Pretty Simple and Detailed Code.</h3>
+									
+						<!-- Content --> 
+						
+						<p>Here is the simple exemple of the next section, as you can see, everything is pretty well detailed and easy to understand.</p>
+											
+						<div class="space"></div>
+						
+					
+					</div>
+					
+					<!-- Image --> 
+				
+					<div class="seven columns picture make-it-appear-left" >
+					
+	<pre>
+					<!-- Article centered on the Page --> 
+			
+					<div class="twelve columns centered make-it-appear-top">
+
+						<!-- Title --> 
+					
+						<h4>Finally! Simple and fair pricing.</h4>
+														
+						<!-- Content --> 
+					
+					
+						<div class="cost">
+							<p class="symbol">$</p>
+							<p class="value">0</p>
+						</div>
+						
+		
+					</div>
+	</pre>
+					
+					</div>
+			
+				</div> <!-- End row div -->    
+
+	</section>
