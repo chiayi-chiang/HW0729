@@ -6,7 +6,7 @@ html, body {
 body {
 	margin: 0px;
 	padding: 0px;
-	background: #FFFFFF url('../img/0003a-background.jpg') repeat top left;
+	background: url('../img/black.jpg') repeat top left;
 	font-family: "Tahoma", Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	color: #80795F;
@@ -85,7 +85,8 @@ a:hover {
 	margin: 20px auto;
 	width: 700px;
     padding: 20px 0px 20px 0px;
-	background-color: #5E5945;
+	background: url('../img/wall1.jpg') #5E5945 ;
+	background-size: 700px;
 	font-size: 10px;
 	color: #FFFFFF;
 }
@@ -107,8 +108,9 @@ html>body #menu {
 #menu a {
 	display: inline;
 	padding: 20px;
-	background-color: #5E5945;
-	text-align: center;
+	margin-inline-start: 30px ;
+	background-color: none;
+	text-align: center; 
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -117,9 +119,9 @@ html>body #menu {
 
 #menu a:hover {
 	padding: 20px;
-	background-color: #AFC797;
+	background-color:  #5E5945;
 	text-decoration: none;
-	color: #5E5945;
+	color:#FFFFFF;
 }
 
 /** CONTENT */
@@ -159,18 +161,18 @@ html>body #menu {
    	 border: 1px dashed #5E5945;
 }
 
-/** FOOTER */
-
 #footer {
-	clear: both;
-}
-
-#footer p {
-	margin: 0px auto;
-	width: 550px;
-    padding: 10px 0px 10px 0px;
-	background-color: #5E5945;
+	margin: 20px auto;
+	width: 700px;
+    padding: 20px 0px 20px 0px;
+	background: url('../img/wall1.jpg') #5E5945 ;
+	background-size: 700px;
 	font-size: 10px;
-	text-align: center;
 	color: #FFFFFF;
 }
+ img[title~="menu"]{
+	 width: 50px;
+	 height: 50px;
+	 background-color: #FAF6F6;
+	 float: right;
+ }
